@@ -28,7 +28,7 @@ basicModel_m_lbs_10_207_0_v1.0.2.fbx
 
 Place these two files under `datageneration/smpl_data` folder.
 
-b) With the same credentials as with the SURREAL dataset, you can download the remaining necessary SMPL data and place it in `datageneration/smpl_data`. This includes the motion capture data (MoCap), including the pelvis position (trans) and the poses (poses) for a list of sequences. There are also regression_verts, and joint_regressor to build the connection with joints. Another important information is the shapes (maleshapes, femaleshapes) from real persons. 
+b) With the same credentials as with the SURREAL dataset, you can download the remaining necessary SMPL data and place it in `datageneration/smpl_data`. This includes the motion capture data (MoCap), including the pelvis position (trans) and the poses (poses) for a list of sequences. There are also regression_verts, and joint_regressor to build the connection with joints. Another important information is the shapes (maleshapes, femaleshapes) from real persons. regression_verts denotes the bones or key vertice indices, while joint_regressor is used to predict the joint position from given vertices. 
 
 ``` shell
 ./download_smpl_data.sh /path/to/smpl_data yourusername yourpassword
